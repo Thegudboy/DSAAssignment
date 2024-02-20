@@ -280,9 +280,9 @@ public class Dashboard extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel4.setText("Create new Post!");
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, 110, -1));
-        getContentPane().add(userName, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 50, 80, 20));
+        jLabel4.setText(" Post Something");
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 70, 110, -1));
+        getContentPane().add(userName, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 80, 20));
 
         jButton1.setBackground(new java.awt.Color(190, 240, 240));
         jButton1.setText("What's on your mind??");
@@ -292,7 +292,7 @@ public class Dashboard extends javax.swing.JFrame {
                 jButton1ActionPerformed(evt);
             }
         });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 50, 440, -1));
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 90, 440, -1));
 
         recomendArea.setBackground(new java.awt.Color(204, 255, 255));
         recomendArea.setColumns(20);
@@ -315,7 +315,7 @@ public class Dashboard extends javax.swing.JFrame {
         });
         friendScrollPane.setViewportView(friendArea);
 
-        getContentPane().add(friendScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 140, 120, 390));
+        getContentPane().add(friendScrollPane, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 150, 160, 390));
 
         searchLabel.setBackground(new java.awt.Color(204, 255, 255));
         searchLabel.addActionListener(new java.awt.event.ActionListener() {
@@ -323,7 +323,7 @@ public class Dashboard extends javax.swing.JFrame {
                 searchLabelActionPerformed(evt);
             }
         });
-        getContentPane().add(searchLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 50, 160, 30));
+        getContentPane().add(searchLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 20, 430, 30));
 
         postArea.setOpaque(false);
 
@@ -333,10 +333,10 @@ public class Dashboard extends javax.swing.JFrame {
         newPost.setRows(5);
         postArea.setViewportView(newPost);
 
-        getContentPane().add(postArea, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 100, 470, 440));
+        getContentPane().add(postArea, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 120, 470, 440));
 
         jLabel10.setText("Friend List!");
-        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 100, -1, -1));
+        getContentPane().add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 120, -1, -1));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/refresh.png"))); // NOI18N
         jLabel8.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -344,7 +344,7 @@ public class Dashboard extends javax.swing.JFrame {
                 jLabel8MouseClicked(evt);
             }
         });
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 10, -1, -1));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 10, -1, -1));
 
         jLabel9.setText("People you may know!");
         getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, 140, -1));
@@ -356,13 +356,13 @@ public class Dashboard extends javax.swing.JFrame {
                 jLabel7MouseClicked(evt);
             }
         });
-        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 50, 40, 30));
+        getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 20, 40, 30));
 
         jLabel6.setText("Search User");
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 80, 20));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 0, 80, 20));
 
         jLabel5.setText("Hello!");
-        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 30, 50, -1));
+        getContentPane().add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 50, -1));
 
         jLabel1.setBackground(new java.awt.Color(153, 255, 204));
         jLabel1.setOpaque(true);
@@ -370,11 +370,11 @@ public class Dashboard extends javax.swing.JFrame {
 
         jLabel2.setBackground(new java.awt.Color(153, 255, 204));
         jLabel2.setOpaque(true);
-        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(735, 0, 169, 562));
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 0, 169, 562));
 
         jLabel3.setBackground(new java.awt.Color(204, 204, 204));
         jLabel3.setOpaque(true);
-        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(209, 0, 530, 562));
+        getContentPane().add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(209, 0, 720, 562));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
